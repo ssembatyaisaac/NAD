@@ -12,7 +12,7 @@
   <!-- the murach database that contains admin usernames and passwords -->
   <Resource name="jdbc/dvcky" type="javax.sql.DataSource" auth="Container" 
             driverClassName="com.mysql.jdbc.Driver" 
-            url="jdbc:mysql://localhost:3306/murach?autoReconnect=true" 
+            url="jdbc:mysql://localhost:3306/music_user?autoReconnect=true" 
             username="ducky" password="bug14nda.mysql" 
             logAbandoned="true" 
             removeAbandoned="true" removeAbandonedTimeout="60" 
