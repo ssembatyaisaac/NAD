@@ -10,7 +10,12 @@ import music.data.*;
 import music.util.*;
 
 public class OrderController extends HttpServlet {
-    private static final String defaultURL = "/cart/cart.jsp";
+    /**
+	 *
+	 */
+    private static final long serialVersionUID = -3471073071944337232L;
+    
+	private static final String defaultURL = "/cart/cart.jsp";
     
     @Override
     public void doPost(HttpServletRequest request, 

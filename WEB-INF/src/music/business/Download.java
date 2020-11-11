@@ -5,7 +5,12 @@ import java.io.Serializable;
 
 public class Download implements Serializable {
 
-    private Long downloadId;
+    /**
+	 *
+	 */
+    private static final long serialVersionUID = 4681418750735976870L;
+    
+	private Long downloadId;
     private User user;
     private Date downloadDate;
     private String productCode;

@@ -5,7 +5,12 @@ import java.io.Serializable;
 
 public class Cart implements Serializable {
 
-    private List<LineItem> items;
+    /**
+	 *
+	 */
+    private static final long serialVersionUID = 4249457333673361227L;
+    
+	private List<LineItem> items;
 
     public Cart() {
         items = new ArrayList<>();

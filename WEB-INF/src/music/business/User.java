@@ -3,7 +3,12 @@ package music.business;
 import java.io.Serializable;
 
 public class User implements Serializable {
-    private Long userId;
+    /**
+	 *
+	 */
+    private static final long serialVersionUID = -7058727493412170319L;
+    
+	private Long userId;
     private String firstName;
     private String lastName;
     private String email;

@@ -18,7 +18,12 @@ import music.business.*;
 
 public class AdminController extends HttpServlet {
 
-    @Override
+    /**
+	 *
+	 */
+	private static final long serialVersionUID = -4936135153939742840L;
+
+	@Override
     public void doPost(HttpServletRequest request,
             HttpServletResponse response)
             throws IOException, ServletException {
@@ -92,6 +97,22 @@ public class AdminController extends HttpServlet {
                 break;
             }
         }
+
+        /* 
+        String invoiceNumberString = request.getParameter("invoiceNumber");
+        int invoiceNumber = Integer.parseInt(invoiceNumberString);
+        List<?> unprocessedInvoices = (List<?>) 
+                session.getAttribute("unprocessedInvoices");
+        String s = (String) unprocessedInvoices.get(invoiceNumber);
+
+        Invoice invoice = null;
+        for (Invoice unprocessedInvoice : s) {
+            invoice = unprocessedInvoice;
+            if (invoice.getInvoiceNumber() == invoiceNumber) {
+                break;
+            }
+        }        
+        */
 
         session.setAttribute("invoice", invoice);
 

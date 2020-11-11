@@ -6,7 +6,12 @@ import java.io.Serializable;
 
 public class Invoice implements Serializable {
     
-    private User user;
+    /**
+	 *
+	 */
+    private static final long serialVersionUID = 2637509706099680325L;
+    
+	private User user;
     private List<LineItem> lineItems;
     private Date invoiceDate;
     private Long invoiceNumber;
