@@ -9,7 +9,12 @@ import music.data.UserDB;
 
 public class UserController extends HttpServlet {
 
-    @Override
+    /**
+	 *
+	 */
+	private static final long serialVersionUID = -7638084057448616478L;
+
+	@Override
     public void doGet(HttpServletRequest request,
             HttpServletResponse response)
             throws IOException, ServletException {

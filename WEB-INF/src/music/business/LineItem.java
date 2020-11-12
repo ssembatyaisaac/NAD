@@ -5,7 +5,12 @@ import java.io.Serializable;
 
 public class LineItem implements Serializable {
 
-    private Long lineItemId;
+    /**
+	 *
+	 */
+    private static final long serialVersionUID = -159177675711593222L;
+    
+	private Long lineItemId;
     private Product product;
     private int quantity = 1;
 

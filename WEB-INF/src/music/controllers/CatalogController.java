@@ -9,8 +9,13 @@ import music.data.*;
 import music.util.CookieUtil;
 
 public class CatalogController extends HttpServlet {
-    
-    @Override
+
+	/**
+	 *
+	 */
+	private static final long serialVersionUID = 1326054977267461199L;
+
+	@Override
     public void doGet(HttpServletRequest request, 
             HttpServletResponse response)
             throws ServletException, IOException {

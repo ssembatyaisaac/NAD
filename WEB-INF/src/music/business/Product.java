@@ -5,7 +5,12 @@ import java.io.Serializable;
 
 public class Product implements Serializable {
 
-    private Long productId;    
+    /**
+	 *
+	 */
+    private static final long serialVersionUID = -4783750892460705738L;
+    
+	private Long productId;    
     private String code;
     private String description;
     private double price;

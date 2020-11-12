@@ -1,0 +1,18 @@
+.main-section {
+  width: 1000px;
+}
+
+.footer-container {
+  height: 3rem;
+  border-top: 2px solid #0e0d0b;
+}
+
+.logo {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.lead {
+  font-size: 1rem;
+  width: 50rem;
+  margin-left: 10rem;
+}
